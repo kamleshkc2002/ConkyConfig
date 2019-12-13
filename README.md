@@ -32,6 +32,8 @@ Inside .conky fonder you will find the script startconky.sh you can use to start
 ### System Information
 Show some important informations about system health.
 
+https://github.com/brndnmtthws/conky/wiki/Configs
+
 ### Weather
 Show current weather conditions using [OpenWeatherMap](http://openweathermap.org/).
 
@@ -60,6 +62,14 @@ Show Market Indexes and Currency rates.
 
 This skin was based on [GH0st3rs](https://github.com/GH0st3rs/YahooFinance) work.
 
+The code requires the variable name `CONFIG_NAME` in 
+```
+stock_yahoo.py
+```
+CONFIG_NAME = '/home/--username--/.conky/config.json' changed.
+
+Further add the stock shortname you are interested in this config.
+
 ## Requisites:
  * [conky](https://github.com/brndnmtthws/conky) >= 1.10
  * [Font Awesome](https://github.com/FortAwesome/Font-Awesome)
@@ -84,3 +94,5 @@ $ sudo apt install jq
 ## Images
 The folder [wallpaper](https://github.com/rpungartnik/MyConkyConfig/tree/master/wallpaper) has the image I'm using and a suggestion for the lock screen.
 
+## Credits
+Full credit to [Brenden Matthews' Conky Setup](https://github.com/brndnmtthws)
